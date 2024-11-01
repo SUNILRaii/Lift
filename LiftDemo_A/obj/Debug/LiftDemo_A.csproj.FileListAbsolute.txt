@@ -19,3 +19,14 @@ C:\Users\ACER\Downloads\PCPS-OOP-2024-main\PCPS-OOP-2024-main\LiftDemo_A\LiftDem
 C:\Users\ACER\Downloads\PCPS-OOP-2024-main\PCPS-OOP-2024-main\LiftDemo_A\LiftDemo_A\obj\Debug\LiftDemo_A.exe
 C:\Users\ACER\Downloads\PCPS-OOP-2024-main\PCPS-OOP-2024-main\LiftDemo_A\LiftDemo_A\obj\Debug\LiftDemo_A.pdb
 C:\Users\ACER\Downloads\PCPS-OOP-2024-main\PCPS-OOP-2024-main\LiftDemo_A\LiftDemo_A\bin\Debug\Form1.resx
+C:\Manish_DBA\PCPS\repos\Lift\LiftDemo_A\bin\Debug\Form1.resx
+C:\Manish_DBA\PCPS\repos\Lift\LiftDemo_A\bin\Debug\LiftDemo_A.exe.config
+C:\Manish_DBA\PCPS\repos\Lift\LiftDemo_A\bin\Debug\LiftDemo_A.exe
+C:\Manish_DBA\PCPS\repos\Lift\LiftDemo_A\bin\Debug\LiftDemo_A.pdb
+C:\Manish_DBA\PCPS\repos\Lift\LiftDemo_A\obj\Debug\LiftDemo_A.csproj.AssemblyReference.cache
+C:\Manish_DBA\PCPS\repos\Lift\LiftDemo_A\obj\Debug\LiftDemo_A.Form1.resources
+C:\Manish_DBA\PCPS\repos\Lift\LiftDemo_A\obj\Debug\LiftDemo_A.Properties.Resources.resources
+C:\Manish_DBA\PCPS\repos\Lift\LiftDemo_A\obj\Debug\LiftDemo_A.csproj.GenerateResource.cache
+C:\Manish_DBA\PCPS\repos\Lift\LiftDemo_A\obj\Debug\LiftDemo_A.csproj.CoreCompileInputs.cache
+C:\Manish_DBA\PCPS\repos\Lift\LiftDemo_A\obj\Debug\LiftDemo_A.exe
+C:\Manish_DBA\PCPS\repos\Lift\LiftDemo_A\obj\Debug\LiftDemo_A.pdb

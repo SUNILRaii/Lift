@@ -67,7 +67,8 @@ namespace LiftDemo_A
             {
                 CloseDoors();  // Start door-closing process
                 lift.SetState(new MovingUpState());  // Set the elevator's next state
-                lift.LiftTimerUp.Tag = "Start"; // Flag to start moving after doors close
+
+				lift.LiftTimerUp.Tag = "Start"; // Flag to start moving after doors close
             }
             else
             {
@@ -76,8 +77,9 @@ namespace LiftDemo_A
                 lift.LiftTimerUp.Start();
                 logEvents("Lift is coming up.");
             }
+			//lift.LiftTimerDown.Start();
 
-            btn_G.Enabled = false; // Disable the ground button
+			btn_G.Enabled = false; // Disable the ground button
         }
 
 
@@ -87,10 +89,7 @@ namespace LiftDemo_A
             {
                 CloseDoors();  // Start door-closing process
                 
-                //lift.LiftTimerDown.Start();
-                //doorTimer.Stop();
                 lift.SetState(new MovingDownState());  // Set the elevator's next state
-                //lift.LiftTimerDown.Start();
 
                 lift.LiftTimerDown.Tag = "Start"; // Flag to start moving after doors close
             }
@@ -154,8 +153,9 @@ namespace LiftDemo_A
                     {
                         doorTimer.Stop();
                         btn_Close.Enabled = true; // Enable close button
-                    }
-                }
+
+					}
+				}
                 else // When at floor 1
                 {
                     if (doorLeft_G.Left > doorMaxOpenWidth / 2)
@@ -167,8 +167,9 @@ namespace LiftDemo_A
                     {
                         doorTimer.Stop();
                         btn_Close.Enabled = true; // Enable close button
-                    }
-                }
+
+					}
+				}
             }
             else if (isClosing)
             {
@@ -183,6 +184,7 @@ namespace LiftDemo_A
                     else
                     {
                         doorTimer.Stop();
+                        liftTimerDown.Start();
                     }
                 }
                 else // When at floor 1
@@ -195,8 +197,10 @@ namespace LiftDemo_A
                     else
                     {
                         doorTimer.Stop();
-                    }
-                }
+						liftTimerUp.Start();
+
+					}
+				}
             }
         }
 
